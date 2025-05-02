@@ -116,10 +116,10 @@ const main = createBrowserRouter(
 
 function App() {
 
-  return<>
+  return(<>
   <WhatsAppButton />
   <RouterProvider router={main} />
-  </> ;
+  </>) ;
 }
 
 export default App;
