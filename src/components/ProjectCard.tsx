@@ -9,7 +9,7 @@ interface ProjectCardProps {
   
   const ProjectCard = ({ title, category, description, image, results = [] }: ProjectCardProps) => {
     return (
-      <div className="bg-white rounded-lg overflow-hidden shadow-md">
+      <div className="bg-white rounded-lg overflow-hidden shadow">
         <div className="h-48 overflow-hidden">
           <img 
             src={image} 

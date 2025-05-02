@@ -33,21 +33,21 @@ const About = () => {
   const experiences = [
     {
       position: "eCommerce Specialist",
-      company: "Digital Solutions Agency",
-      period: "2020 - Present",
-      description: "Managing client eCommerce projects, optimizing online stores, and implementing digital marketing strategies."
+      company: "Freelancer",
+      period: "2022 - 2024",
+      description: "Worked as a freelancer on on Fiver and Upwork. An Ecommerce expert creating Etsy Store and Shopify store"
     },
     {
       position: "Social Media Manager",
-      company: "Creative Marketing Co.",
-      period: "2018 - 2020",
-      description: "Created and executed social media campaigns for various clients across different industries."
+      company: "ARSHER'S DRY CLEANER",
+      period: "2024 - Present",
+      description: "I analized the company's social media metrics and adjust tactics to improve performance."
     },
     {
       position: "Virtual Assistant",
-      company: "Freelance",
-      period: "2016 - 2018",
-      description: "Provided administrative support to small businesses and entrepreneurs."
+      company: "African Leadership Experience",
+      period: "2024 - 2024",
+      description: "Managed Calendar & Email Inbox, also worked on Data Entry, Meetings and Skill mapping"
     }
   ];
 
@@ -121,7 +121,7 @@ const About = () => {
       <section className="py-10">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold nt mb-4">Tools & Expertise</h2>
+            <h2 className="text-3xl font-bold sf nt mb-4">Tools & Expertise</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               I'm proficient in a wide range of tools and platforms to deliver the best results for your business.
             </p>

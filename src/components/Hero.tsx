@@ -16,11 +16,11 @@ const Hero = () => {
           {/* Left Content */}
           <div className="space-y-6 animate-fade-in">
             <h1 className="text-4xl sf md:text-5xl font-bold leading-tight">
-              <span className="text-teal">Azeez Aisha</span><br />
+              <span className="text-teal">I'm Azeez Aisha</span><br />
               
               {/* Mobile view (< md) */}
               <span className="block md:hidden">
-                I am <TypewriterEffect words={typingWords} />
+                <TypewriterEffect words={typingWords} />
               </span>
 
               {/* Desktop view (≥ md) */}
@@ -51,7 +51,7 @@ const Hero = () => {
               </Link>
               <Link
                 to="/services"
-                className="group border text-sm border border-gray-600 text-white px-6 py-3 rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300 flex items-center justify-center gap-2"
+                className="group border text-sm border-gray-600 text-white px-6 py-3 rounded-md hover:bg-white hover:text-gray-800 transition-colors duration-300 flex items-center justify-center gap-2"
               >
                 Explore Services
                 <GoArrowRight size={18} className="group-hover:translate-x-1 transition-transform duration-300" />

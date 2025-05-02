@@ -23,22 +23,22 @@ const MainNavbar = () => {
     <>
       <header
         className={`w-full py-4 sticky top-0 z-50 transition-colors duration-300 ${
-          scrolled ? "bg-white/98 shadow" : "bg-transparent"
+          scrolled ? "bg-white/98 shadow nt" : "bg-[#202340] text-white"
         }`}
       >
         <div className="container mx-auto">
           {/* Desktop Navbar */}
           <div className="hidden cf font-extrabold md:flex justify-between items-center py-4">
-          <Link to="/" className="text-2xl font-bold text-[#202340] sf">
+          <Link to="/" className="text-2xl font-bold  sf">
             Portfolio<span className="pc">.</span>
           </Link>
             <nav className="flex space-x-6 text-sm font-semibold sf uppercase">
-              <Link to="/" className="hover:text-[#F8B44F] transition ease-in">Home</Link>
-              <Link to="/about" className="hover:text-[#F8B44F] transition ease-in">About</Link>
-              <Link to="/services" className="hover:text-[#F8B44F] transition ease-in">Services</Link>
-              <Link to="/projects" className="hover:text-[#F8B44F] transition ease-in">Project</Link>
-              <Link to="/certificates" className="hover:text-[#F8B44F] transition ease-in">Certification</Link>
-              <Link to="/contact" className="hover:text-[#F8B44F] transition ease-in">Contact</Link>
+              <Link to="/" className="hover:text-[#38B6FF] transition ease-in">Home</Link>
+              <Link to="/about" className="hover:text-[#38B6FF] transition ease-in">About</Link>
+              <Link to="/services" className="hover:text-[#38B6FF] transition ease-in">Services</Link>
+              <Link to="/projects" className="hover:text-[#38B6FF] transition ease-in">Project</Link>
+              <Link to="/certificates" className="hover:text-[#38B6FF] transition ease-in">Certification</Link>
+              <Link to="/contact" className="hover:text-[#38B6FF] transition ease-in">Contact</Link>
             </nav>
           </div>
 

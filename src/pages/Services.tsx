@@ -199,7 +199,7 @@ const Services = () => {
       <section className="py-10">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold nt mb-4">What I Offer</h2>
+            <h2 className="text-3xl font-bold nt sf mb-4">What I Offer</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               I provide a range of services to help businesses establish and grow their online presence.
               Each service is tailored to meet your specific needs and goals.

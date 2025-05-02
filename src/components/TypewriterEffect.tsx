@@ -64,7 +64,7 @@ const TypewriterEffect = ({
   };
 
   return (
-    <span className="pc">
+    <span className="pc text-[30px]">
       {text}
       <span className="inline-block w-1 pb ml-1 h-[1em] animate-blink"></span>
     </span>

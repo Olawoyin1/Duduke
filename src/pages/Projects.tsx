@@ -123,7 +123,7 @@ const Projects = () => {
       <section className="navy text-white py-20">
         <div className="container px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">My Projects</h1>
+            <h1 className="text-4xl md:text-5xl sf font-bold mb-6">My Projects</h1>
             <p className="text-xl text-gray-300">
               Case studies showcasing my work in eCommerce, social media, and virtual assistance
             </p>
@@ -163,7 +163,7 @@ const Projects = () => {
         <div className="container">
           <div className="text-center mb-12">
             <div className="flex items-center justify-center gap-3 mb-4">
-              <h2 className="text-3xl font-bold nt">Before & After Transformations</h2>
+              <h2 className="text-3xl sf font-bold nt">Before & After Transformations</h2>
             </div>
             <p className="text-gray-600 max-w-2xl mx-auto">
               See real results from social media accounts I've managed and transformed
@@ -238,7 +238,7 @@ const Projects = () => {
 
           {/* Social Media Growth Strategies */}
           <div className="py-10">
-            <h3 className="text-2xl font-bold nt mb-6 text-center">Proven Growth Strategies</h3>
+            <h3 className="text-2xl sf font-bold nt mb-6 text-center">Proven Growth Strategies</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white rounded-lg shadow overflow-hidden hover-lift">
                 <div className="h-2 bp"></div>
@@ -320,7 +320,7 @@ const Projects = () => {
       <section className="py-10">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold nt mb-4">Client Testimonials</h2>
+            <h2 className="text-3xl font-bold nt sf mb-4">Client Testimonials</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Don't just take my word for it, here's what my clients have to say.
             </p>

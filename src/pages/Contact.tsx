@@ -140,7 +140,7 @@ const Contact = () => {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold nt sf mb-6">Send Me a Message</h2>
+              <h2 className="text-3xl font-bold nt sf">Send Me a Message</h2>
               <p className="text-gray-600 mb-6">
                 Have a question or want to work together? Fill out the form below and I'll get back to you as soon as possible.
               </p>
@@ -239,28 +239,28 @@ const Contact = () => {
                 
                 <div className="space-y-6">
                   <div>
-                    <h4 className="text-lg font-semibold mb-2 pc">What services do you offer?</h4>
+                    <h4 className="text-lg font-semibold mb-2 sf pc">What services do you offer?</h4>
                     <p className="text-gray-300">
                       I specialize in eCommerce solutions, social media management, and virtual assistance services tailored to your specific needs.
                     </p>
                   </div>
                   
                   <div>
-                    <h4 className="text-lg font-semibold mb-2 pc">How much do your services cost?</h4>
+                    <h4 className="text-lg sf font-semibold mb-2 pc">How much do your services cost?</h4>
                     <p className="text-gray-300">
                       Pricing varies based on project scope and requirements. Contact me for a customized quote.
                     </p>
                   </div>
                   
                   <div>
-                    <h4 className="text-lg font-semibold mb-2 pc">What is your turnaround time?</h4>
+                    <h4 className="text-lg sf font-semibold mb-2 pc">What is your turnaround time?</h4>
                     <p className="text-gray-300">
                       Turnaround time depends on the complexity of the project. I'll provide a timeline during our initial consultation.
                     </p>
                   </div>
                   
                   <div>
-                    <h4 className="text-lg font-semibold mb-2 pc">Do you offer ongoing support?</h4>
+                    <h4 className="text-lg sf font-semibold mb-2 pc">Do you offer ongoing support?</h4>
                     <p className="text-gray-300">
                       Yes, I offer various support packages to help maintain and grow your online presence after the initial project is complete.
                     </p>
