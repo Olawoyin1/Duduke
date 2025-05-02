@@ -44,7 +44,9 @@ const MainNavbar = () => {
 
           {/* Mobile Navbar */}
           <div className="md:hidden flex justify-between items-center py-4 text-black">
-            <Link to="/" className="cf font-bold">WENA AFFILIATE</Link>
+          <Link to="/" className="text-2xl font-bold text-[#202340] sf">
+            Portfolio<span className="pc">.</span>
+          </Link>
             <button onClick={toggleMenu}>
               {isOpen ? <FiX size={26} /> : <HiOutlineMenuAlt4 size={26} />}
             </button>
