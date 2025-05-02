@@ -57,11 +57,11 @@ const About = () => {
       <section className="navy text-white py-10">
         <div className="container">
           <div className="flex items-center justify-center flex-col mx-auto text-center">
-            <img src="../../Images/duduke1.png" className="w-100" alt="" />
             <h1 className="text-4xl md:text-5xl font-bold sf mb-6">About Me</h1>
             <p className="text-xl text-gray-300">
               I'm a dedicated professional helping businesses establish and improve their online presence.
             </p>
+            <img src="../../Images/duduke1.png" className="w-100" alt="" />
           </div>
         </div>
       </section>
