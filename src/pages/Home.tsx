@@ -28,6 +28,7 @@ const Home = () => {
       features: [
         "Shopify & WooCommerce store setup",
         "Product listings & optimization",
+        "Etsy",
         "SEO for better visibility",
         "Payment gateway integration"
       ]

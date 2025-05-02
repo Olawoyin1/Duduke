@@ -26,6 +26,10 @@ p{
     background-color: #202340;
 }
 
+.line-through{
+    text-decoration: line-through;
+}
+
 .nt{
     color: #202340 ;
 }

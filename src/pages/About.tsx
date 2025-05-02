@@ -54,9 +54,10 @@ const About = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="navy text-white py-20">
-        <div className="container-narrow px-4">
-          <div className="max-w-3xl mx-auto text-center">
+      <section className="navy text-white py-10">
+        <div className="container">
+          <div className="flex items-center justify-center flex-col mx-auto text-center">
+            <img src="../../Images/duduke1.png" className="w-100" alt="" />
             <h1 className="text-4xl md:text-5xl font-bold sf mb-6">About Me</h1>
             <p className="text-xl text-gray-300">
               I'm a dedicated professional helping businesses establish and improve their online presence.
@@ -98,7 +99,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="bg-softwhite p-8 rounded-lg">
+            <div className="bg-softwhite lg:p-8 rounded-lg">
               <h3 className="text-2xl font-semibold nt sf mb-6">Professional Experience</h3>
               <div className="space-y-6">
                 {experiences.map((exp, index) => (

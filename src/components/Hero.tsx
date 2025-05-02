@@ -4,9 +4,9 @@ import TypewriterEffect from './TypewriterEffect';
 
 const Hero = () => {
   const typingWords = [
-    "a Virtual Assistant",
-    "a Social Media Manager",
-    "an eCommerce Expert"
+    "A Virtual Assistant",
+    "A Social Media Manager",
+    "An eCommerce Expert"
   ];
 
   return (

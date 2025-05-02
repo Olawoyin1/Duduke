@@ -138,7 +138,7 @@ const Projects = () => {
             {categories.map((category) => (
               <button
                 key={category}
-                className={`px-4 py-2 rounded-md font-medium transition-colors ${
+                className={`px-4 py-2 rounded-md sf font-medium transition-colors ${
                   activeFilter === category
                     ? "navy text-white"
                     : "bg-softwhite nt hover:bg-gray-200"
@@ -163,8 +163,7 @@ const Projects = () => {
         <div className="container">
           <div className="text-center mb-12">
             <div className="flex items-center justify-center gap-3 mb-4">
-              <Images className="text-teal h-6 w-6" />
-              <h2 className="text-3xl font-bold text-navy">Before & After Transformations</h2>
+              <h2 className="text-3xl font-bold nt">Before & After Transformations</h2>
             </div>
             <p className="text-gray-600 max-w-2xl mx-auto">
               See real results from social media accounts I've managed and transformed
@@ -176,10 +175,10 @@ const Projects = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {beforeAfterExamples.map((example) => (
                   <div key={example.id} className="md:basis-1/2 lg:basis-1/3">
-                    <div className="bg-white rounded-lg shadow-md overflow-hidden hover-lift h-full">
+                    <div className="bg-white rounded-lg shadow overflow-hidden hover-lift h-full">
                       <div className="p-6">
                         <div className="flex justify-between items-center mb-4">
-                          <h3 className="text-xl sf font-semibold text-navy">{example.accountName}</h3>
+                          <h3 className="text-xl sf font-semibold nt">{example.accountName}</h3>
                           <span className="navy text-white text-xs px-2 py-1 rounded">
                             {example.platform}
                           </span>
@@ -197,7 +196,7 @@ const Projects = () => {
                             </div>
                           </div>
                           <div className="space-y-2">
-                            <p className="text-sm font-medium text-teal">AFTER</p>
+                            <p className="text-sm font-medium pc">AFTER</p>
                             <div className="h-40 overflow-hidden rounded-md">
                               <img 
                                 src={example.afterImage} 
@@ -209,18 +208,18 @@ const Projects = () => {
                         </div>
                         
                         <div className="grid grid-cols-2 gap-4 mb-4 text-center">
-                          <div className="bg-softwhite p-3 rounded">
+                          <div className="bg-[#f1f1f1] p-3 rounded">
                             <p className="text-sm text-gray-500">Followers</p>
                             <div className="flex items-center justify-center gap-2">
                               <span className="text-gray-600 line-through">{example.followers.before}</span>
-                              <span className="text-teal font-bold">{example.followers.after}</span>
+                              <span className="pc font-bold">{example.followers.after}</span>
                             </div>
                           </div>
-                          <div className="bg-softwhite p-3 rounded">
+                          <div className="bg-[#f1f1f1] p-3 rounded">
                             <p className="text-sm text-gray-500">Engagement</p>
                             <div className="flex items-center justify-center gap-2">
                               <span className="text-gray-600 line-through">{example.engagement.before}</span>
-                              <span className="text-teal font-bold">{example.engagement.after}</span>
+                              <span className="pc font-bold">{example.engagement.after}</span>
                             </div>
                           </div>
                         </div>
@@ -232,82 +231,81 @@ const Projects = () => {
                 ))}
               </div>
               <div className="flex justify-center mt-8">
-                <div className="relative static translate-y-0 mr-2" />
-                <div className="relative static translate-y-0 ml-2" />
+                {/* <div className="relative static translate-y-0 mr-2" /> */}
               </div>
             </div>
           </div>
 
           {/* Social Media Growth Strategies */}
-          <div className="mt-16">
-            <h3 className="text-2xl font-bold text-navy mb-6 text-center">Proven Growth Strategies</h3>
+          <div className="py-10">
+            <h3 className="text-2xl font-bold nt mb-6 text-center">Proven Growth Strategies</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-white rounded-lg shadow-md overflow-hidden hover-lift">
-                <div className="h-2 bg-teal"></div>
+              <div className="bg-white rounded-lg shadow overflow-hidden hover-lift">
+                <div className="h-2 bp"></div>
                 <div className="p-6">
-                  <h4 className="text-lg font-semibold text-navy mb-3">Content Calendar Strategy</h4>
+                  <h4 className="text-lg font-semibold nt sf mb-3">Content Calendar Strategy</h4>
                   <p className="text-gray-600 mb-4">
                     Strategic planning of content themes, posting schedules, and engagement windows for maximum reach.
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-teal mt-2"></span>
+                      <span className="w-1.5 h-1.5 rounded-full pb mt-2"></span>
                       <span className="text-sm text-gray-600">Consistent posting schedule</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-teal mt-2"></span>
+                      <span className="w-1.5 h-1.5 rounded-full pb mt-2"></span>
                       <span className="text-sm text-gray-600">Content themes aligned with business goals</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-teal mt-2"></span>
+                      <span className="w-1.5 h-1.5 rounded-full pb mt-2"></span>
                       <span className="text-sm text-gray-600">Seasonal and trend-based content planning</span>
                     </li>
                   </ul>
                 </div>
               </div>
 
-              <div className="bg-white rounded-lg shadow-md overflow-hidden hover-lift">
-                <div className="h-2 bg-teal"></div>
+              <div className="bg-white rounded-lg shadow overflow-hidden hover-lift">
+                <div className="h-2 pb"></div>
                 <div className="p-6">
-                  <h4 className="text-lg font-semibold text-navy mb-3">Engagement Techniques</h4>
+                  <h4 className="text-lg font-semibold nt sf mb-3">Engagement Techniques</h4>
                   <p className="text-gray-600 mb-4">
                     Proven methods to increase authentic engagement and build community around your brand.
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-teal mt-2"></span>
+                      <span className="w-1.5 h-1.5 rounded-full pb mt-2"></span>
                       <span className="text-sm text-gray-600">Interactive stories and polls</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-teal mt-2"></span>
+                      <span className="w-1.5 h-1.5 rounded-full pb mt-2"></span>
                       <span className="text-sm text-gray-600">Community questions and featured responses</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-teal mt-2"></span>
+                      <span className="w-1.5 h-1.5 rounded-full pb mt-2"></span>
                       <span className="text-sm text-gray-600">User-generated content campaigns</span>
                     </li>
                   </ul>
                 </div>
               </div>
 
-              <div className="bg-white rounded-lg shadow-md overflow-hidden hover-lift">
-                <div className="h-2 bg-teal"></div>
+              <div className="bg-white rounded-lg overflow-hidden hover-lift">
+                <div className="h-2 bp"></div>
                 <div className="p-6">
-                  <h4 className="text-lg font-semibold text-navy mb-3">Analytics Optimization</h4>
+                  <h4 className="text-lg font-semibold sf nt mb-3">Analytics Optimization</h4>
                   <p className="text-gray-600 mb-4">
                     Data-driven approaches to continuously improve performance and reach.
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-teal mt-2"></span>
+                      <span className="w-1.5 h-1.5 rounded-full pb mt-2"></span>
                       <span className="text-sm text-gray-600">Weekly performance analysis</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-teal mt-2"></span>
+                      <span className="w-1.5 h-1.5 rounded-full pb mt-2"></span>
                       <span className="text-sm text-gray-600">Content type effectiveness tracking</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-teal mt-2"></span>
+                      <span className="w-1.5 h-1.5 rounded-full pb mt-2"></span>
                       <span className="text-sm text-gray-600">Audience insights and demographic targeting</span>
                     </li>
                   </ul>
@@ -319,37 +317,37 @@ const Projects = () => {
       </section>
 
       {/* Testimonials */}
-      <section className="section-padding">
-        <div className="container-narrow">
+      <section className="py-10">
+        <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-navy mb-4">Client Testimonials</h2>
+            <h2 className="text-3xl font-bold nt mb-4">Client Testimonials</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Don't just take my word for it, here's what my clients have to say.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-softwhite p-6 rounded-lg border-l-4 border-navy hover-lift">
+            <div className="bg-white p-6 rounded-lg border-l-4 border-[#38B6FF] hover-lift">
               <p className="text-gray-600 italic mb-4">
                 "Working with this freelancer transformed our online store. Sales increased by 40% in the first month after the redesign, and the whole process was smooth and professional."
               </p>
               <div className="flex items-center">
-                <div className="w-10 h-10 bg-navy rounded-full mr-3"></div>
+                <div className="w-10 h-10 pb rounded-full mr-3"></div>
                 <div>
-                  <h4 className="font-medium text-navy">Sarah Johnson</h4>
+                  <h4 className="font-medium nt">Sarah Johnson</h4>
                   <p className="text-sm text-gray-500">Boutique Owner</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-softwhite p-6 rounded-lg border-l-4 border-teal hover-lift">
+            <div className="bg-white p-6 rounded-lg border-l-4 border-[#38B6FF] hover-lift">
               <p className="text-gray-600 italic mb-4">
                 "The social media strategy completely revitalized our brand's online presence. We've seen remarkable growth in followers and engagement, plus a significant uptick in website traffic."
               </p>
               <div className="flex items-center">
-                <div className="w-10 h-10 bg-teal rounded-full mr-3"></div>
+                <div className="w-10 h-10 pb rounded-full mr-3"></div>
                 <div>
-                  <h4 className="font-medium text-navy">Michael Peterson</h4>
+                  <h4 className="font-medium nt">Michael Peterson</h4>
                   <p className="text-sm text-gray-500">Marketing Director</p>
                 </div>
               </div>
@@ -359,8 +357,8 @@ const Projects = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gradient-to-br from-navy to-[#2C3062] py-16 text-white">
-        <div className="container-narrow">
+      <section className="bg-gradient-to-br from-[#202340] to-[#2C3062] py-16 text-white">
+        <div className="container">
           <div className="text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Start Your Project?</h2>
             <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
@@ -368,7 +366,7 @@ const Projects = () => {
             </p>
             <a
               href="/contact"
-              className="bg-teal hover:bg-white hover:text-navy text-white font-medium px-6 py-3 rounded-md transition-colors duration-300"
+              className="pb hover:bg-white hover:nt text-white text-sm font-medium px-6 py-3 rounded-md transition-colors duration-300"
             >
               Get in Touch
             </a>
