@@ -11,6 +11,7 @@ import { lazy, Suspense } from "react";
 import "./index.css";
 import Loader from "./components/Loader";
 import Projects from "./pages/Projects";
+import Certifications from "./pages/Certificate";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 
@@ -74,6 +75,23 @@ const main = createBrowserRouter(
           </Suspense>
         }
       />
+      <Route
+        path="certificates"
+        element={
+          <Suspense fallback={<Loader />}>
+            <Certifications />
+          </Suspense>
+        }
+      />
+
+      {/* <Route
+        path="projects"
+        element={
+          <Suspense fallback={<Loader />}>
+            <Projects />
+          </Suspense>
+        }
+      /> */}
 
 
       
