@@ -43,8 +43,8 @@ const MainNavbar = () => {
           </div>
 
           {/* Mobile Navbar */}
-          <div className="md:hidden flex justify-between items-center py-4 text-black">
-          <Link to="/" className="text-2xl font-bold text-[#202340] sf">
+          <div className="md:hidden flex justify-between items-center py-4">
+          <Link to="/" className="text-2xl font-bold  sf">
             Portfolio<span className="pc">.</span>
           </Link>
             <button onClick={toggleMenu}>
