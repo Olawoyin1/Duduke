@@ -16,10 +16,24 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Boutique Clothing Store",
+      title: "Dignitestore",
       category: "eCommerce",
       description: "Complete Shopify store setup with custom theme and product catalog.",
-      image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&auto=format&fit=crop&q=80",
+      image: "../../Images/dignitestore.png",
+      results: ["50% increase in conversion rate", "Improved user experience", "Mobile optimization"]
+    },
+    {
+      title: "Holidayrentalalgarve",
+      category: "eCommerce",
+      description: "Apartment Rental Algarve | Holiday Rental Algarve | Carvoeiro Two Carvoeiro holiday apartments and one fully renovated traditional",
+      image: "../../Images/holidayrentalalgarve.png",
+      results: ["50% increase in conversion rate", "Improved user experience", "Mobile optimization"]
+    },
+    {
+      title: "JoyLoveandCakes",
+      category: "eCommerce",
+      description: "Cake Design & Custom Sweets | Joy, Love And Cakes - Pennsauken, NJ.",
+      image: "../../Images/joyloveandcakes.png",
       results: ["50% increase in conversion rate", "Improved user experience", "Mobile optimization"]
     },
     {
@@ -30,10 +44,24 @@ const Projects = () => {
       results: ["2x follower growth", "30% engagement increase", "15% rise in direct sales"]
     },
     {
-      title: "Handmade Jewelry Store",
+      title: "The~StyleGirl",
       category: "eCommerce",
-      description: "WooCommerce setup with custom product photography and SEO optimization.",
-      image: "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=600&auto=format&fit=crop&q=80",
+      description: "Shopify setup with custom product photography and SEO optimization.",
+      image: "../../Images/stylegirl.png",
+      results: ["First-month sales exceeded targets by 30%", "Established brand identity", "Seamless checkout experience"]
+    },
+    {
+      title: "SunnydropPlanner",
+      category: "eCommerce",
+      description: "Shopify setup with custom product photography and SEO optimization.",
+      image: "../../Images/sunny.png",
+      results: ["First-month sales exceeded targets by 30%", "Established brand identity", "Seamless checkout experience"]
+    },
+    {
+      title: "SwedishGenius",
+      category: "eCommerce",
+      description: "Swedishgenius - Etsy Nigeria Shop Dominating by Swedishgenius located in Stockholm, Sweden.",
+      image: "../../Images/swedishgenius.png",
       results: ["First-month sales exceeded targets by 30%", "Established brand identity", "Seamless checkout experience"]
     },
     {
