@@ -1,16 +1,22 @@
 
-import { Calendar, ClipboardList, FileText, Settings, Search, BarChart, FileImage, RefreshCcw, TrendingUp } from "lucide-react";
+import { TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
 import ServiceCard from "../components/ServiceCard";
-
+import { GoChecklist } from "react-icons/go";
+import { IoSettingsOutline } from "react-icons/io5";
+import { RiSearch2Line } from "react-icons/ri";
+import { AiOutlineLineChart } from "react-icons/ai";
+import { IoMailUnreadOutline } from "react-icons/io5";
+import { PiImageSquareLight } from "react-icons/pi";
+import { PiRepeatFill } from "react-icons/pi";
 import {
   // LuArrowRight,
   LuShoppingCart,
   LuInstagram,
-  // LuBriefcase,
-  // LuClipboardList,
   LuMessageSquare,
 } from "react-icons/lu";
+
+import { IoCalendarClearOutline } from "react-icons/io5";
 
 import { IoBriefcaseOutline } from "react-icons/io5";
 // import ServiceCard from "@/components/ServiceCard";
@@ -31,7 +37,7 @@ const Services = () => {
     {
       title: "Product Listings",
       description: "Professional product listings that convert",
-      icon: ClipboardList,
+      icon: GoChecklist,
       features: [
         "Product data entry and organization",
         "SEO-friendly product descriptions",
@@ -42,7 +48,7 @@ const Services = () => {
     {
       title: "Store Optimization",
       description: "Enhance your store's performance and conversion rate",
-      icon: Settings,
+      icon: IoSettingsOutline,
       features: [
         "Site speed optimization",
         "Checkout process streamlining",
@@ -53,7 +59,7 @@ const Services = () => {
     {
       title: "SEO & Marketing",
       description: "Drive more qualified traffic to your online store",
-      icon: Search,
+      icon: RiSearch2Line,
       features: [
         "Keyword research and implementation",
         "Meta descriptions and product tags",
@@ -89,7 +95,7 @@ const Services = () => {
     {
       title: "Analytics & Reporting",
       description: "Track performance and optimize your strategy",
-      icon: BarChart,
+      icon: AiOutlineLineChart,
       features: [
         "Performance metrics tracking",
         "Monthly analytics reports",
@@ -100,7 +106,7 @@ const Services = () => {
     {
       title: "Social Media Design",
       description: "Eye-catching visuals for your social platforms",
-      icon: FileImage,
+      icon: PiImageSquareLight,
       features: [
         "Profile and cover photo design",
         "Post template creation",
@@ -114,7 +120,7 @@ const Services = () => {
     {
       title: "Email Management",
       description: "Organized and efficient inbox handling",
-      icon: FileText,
+      icon: IoMailUnreadOutline,
       features: [
         "Email organization and filtering",
         "Response drafting and sending",
@@ -125,7 +131,7 @@ const Services = () => {
     {
       title: "Scheduling & Admin",
       description: "Keep your business running smoothly",
-      icon: Calendar,
+      icon: IoCalendarClearOutline,
       features: [
         "Calendar management",
         "Meeting scheduling",
@@ -136,7 +142,7 @@ const Services = () => {
     {
       title: "Project Management",
       description: "Streamlined workflow and project tracking",
-      icon: RefreshCcw,
+      icon: PiRepeatFill,
       features: [
         "Project setup and organization",
         "Task assignment and tracking",

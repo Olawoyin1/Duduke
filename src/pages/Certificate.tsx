@@ -36,7 +36,7 @@ const Certifications = () => {
       <section className="navy text-white py-20">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Certifications</h1>
+            <h1 className="text-4xl md:text-5xl font-bold sf mb-6">Certifications</h1>
             <p className="text-xl text-gray-300">
               Professional credentials that validate my expertise and commitment to excellence
             </p>
@@ -48,7 +48,7 @@ const Certifications = () => {
       <section className="py-10">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold nt mb-4">My Professional Certifications</h2>
+            <h2 className="text-3xl font-bold nt mb-4 sf">My Professional Certifications</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               I continuously invest in my professional development to ensure I can provide the most up-to-date and effective services for my clients.
             </p>

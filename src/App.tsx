@@ -12,6 +12,7 @@ import "./index.css";
 import Loader from "./components/Loader";
 import Projects from "./pages/Projects";
 import Certifications from "./pages/Certificate";
+import WhatsAppButton from "./components/WhatsappMe";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 
@@ -114,7 +115,11 @@ const main = createBrowserRouter(
 );
 
 function App() {
-  return <RouterProvider router={main} />;
+
+  return<>
+  <WhatsAppButton />
+  <RouterProvider router={main} />
+  </> ;
 }
 
 export default App;

@@ -131,7 +131,7 @@ const About = () => {
             {tools.map((tool, index) => (
               <div key={index} className="bg-white p-4 rounded-lg shadow-sm hover-lift flex items-center gap-2">
                 <FiCheckCircle size={16} className="pc" />
-                <span className="text-gray-700">{tool}</span>
+                <p className="text-gray-700">{tool}</p>
               </div>
             ))}
           </div>
