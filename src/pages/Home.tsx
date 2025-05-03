@@ -59,11 +59,12 @@ const Home = () => {
 
   const projects = [
     {
-      title: "Boutique Clothing Store",
+      title: "HOME WHIMSY",
       category: "eCommerce",
-      description: "Complete Shopify store setup with custom theme and product catalog.",
-      image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&auto=format&fit=crop&q=80",
-      results: ["50% increase in conversion rate", "Improved user experience", "Mobile optimization"]
+      description: "A curated shopping experience that celebrates individuality. ",
+      image: "../../Images/hw.jpeg",
+      results: ["50% increase in conversion rate", "Improved user experience", "Mobile optimization"],
+      link: "https://www.home-whimsy.com/"
     },
     {
       title: "Wellness Brand Campaign",

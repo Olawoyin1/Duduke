@@ -10,7 +10,7 @@ const Hero = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-br from-[#202340] to-[#2C3062] text-white py-20 lg:py-28">
+    <section className="bg-gradient-to-br from-[#202340] to-[#202340f9] text-white py-20 lg:py-28">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
