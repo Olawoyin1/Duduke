@@ -208,8 +208,8 @@ const Projects = () => {
       beforeImage: "../../Images/mpb.jpeg",
       afterImage: "../../Images/mpa.jpeg",
       followers: {
-        before: 850,
-        after: 3700
+        before: 387,
+        after: 997
       },
       engagement: {
         before: "1.5%",
