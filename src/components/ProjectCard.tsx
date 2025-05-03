@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { GoArrowRight } from "react-icons/go";
 
 interface ProjectCardProps {
     title: string;
@@ -5,9 +7,10 @@ interface ProjectCardProps {
     description: string;
     image: string;
     results?: string[];
+    link?: string
   }
   
-  const ProjectCard = ({ title, category, description, image, results = [] }: ProjectCardProps) => {
+  const ProjectCard = ({ title, category, description, image, results = [], link }: ProjectCardProps) => {
     return (
       <div className="bg-white rounded-lg overflow-hidden shadow">
         <div className="h-48 overflow-hidden">
@@ -35,6 +38,13 @@ interface ProjectCardProps {
               </ul>
             </div>
           )}
+          {/* <Link to={link} className="flex items-center gap-2 mt-3 sf">View Project <GoArrowRight /></Link> */}
+          {link && (
+            <Link to={link} target="blank" className="flex items-center gap-2 mt-3 sf">
+              View Project <GoArrowRight />
+            </Link>
+          )}
+
         </div>
       </div>
     );

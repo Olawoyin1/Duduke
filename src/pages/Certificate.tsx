@@ -13,7 +13,7 @@ const Certifications = () => {
       image: "../../Images/cert1.jpeg"
     },
     {
-      title: "Social Media Manager Certificate",
+      title: "Social Media Management Certificate",
       issuer: "HubSpot Academy",
       icon: BookOpen,
       description: "Advanced social media management course covering content strategy, analytics, platform optimization, and audience engagement.",

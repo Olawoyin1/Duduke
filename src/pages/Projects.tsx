@@ -1,15 +1,7 @@
 
 import { useState } from "react";
-// import ProjectCard from "@/components/ProjectCard";
-// import { Images } from "lucide-react";
 import ProjectCard from "../components/ProjectCard";
-// import { 
-//   Carousel,
-//   CarouselContent,
-//   CarouselItem,
-//   CarouselNext,
-//   CarouselPrevious
-// } from "@/components/ui/carousel";
+
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -20,63 +12,79 @@ const Projects = () => {
       category: "eCommerce",
       description: "Complete Shopify store setup with custom theme and product catalog.",
       image: "../../Images/dignitestore.png",
-      results: ["50% increase in conversion rate", "Improved user experience", "Mobile optimization"]
+      results: ["50% increase in conversion rate", "Improved user experience", "Mobile optimization"],
+      link: "https://www.dignitestore.com/"
     },
+    
     {
       title: "Holidayrentalalgarve",
       category: "eCommerce",
       description: "Apartment Rental Algarve | Holiday Rental Algarve | Carvoeiro Two Carvoeiro holiday apartments and one fully renovated traditional",
       image: "../../Images/holidayrentalalgarve.png",
-      results: ["50% increase in conversion rate", "Improved user experience", "Mobile optimization"]
+      results: ["50% increase in conversion rate", "Improved user experience", "Mobile optimization"],
+      link: "https://www.holidayrentalalgarve.com/"
     },
     {
       title: "JoyLoveandCakes",
       category: "eCommerce",
       description: "Cake Design & Custom Sweets | Joy, Love And Cakes - Pennsauken, NJ.",
       image: "../../Images/joyloveandcakes.png",
-      results: ["50% increase in conversion rate", "Improved user experience", "Mobile optimization"]
+      results: ["50% increase in conversion rate", "Improved user experience", "Mobile optimization"],
+      link: "https://www.joyloveandcakes.com/"
     },
     {
-      title: "Wellness Brand Campaign",
+      title: "Content Creation for Palm Oil Brand",
       category: "Social Media",
-      description: "3-month social media strategy with content creation and paid advertising.",
-      image: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=600&auto=format&fit=crop&q=80",
-      results: ["2x follower growth", "30% engagement increase", "15% rise in direct sales"]
+      description: "Executed a 3-month campaign focused on promoting the health benefits and culinary versatility of organic palm oil. This included branded content creation, influencer partnerships, and targeted paid ads.",
+      image: "../../Images/redoil.jpeg",
+      results: [
+        "Doubled Instagram followers",
+        "30% boost in engagement rates",
+        "15% increase in product sales"
+      ],
+      link: "https://www.instagram.com/reel/DHnJ7bVtqXF/?igsh=MW4zbXY4ZHpzOWJ5NA%3D%3D"
     },
+    
     {
       title: "The~StyleGirl",
       category: "eCommerce",
       description: "Shopify setup with custom product photography and SEO optimization.",
       image: "../../Images/stylegirl.png",
-      results: ["First-month sales exceeded targets by 30%", "Established brand identity", "Seamless checkout experience"]
+      results: ["First-month sales exceeded targets by 30%", "Established brand identity", "Seamless checkout experience"],
+      link: "https://the-stylegirl.com/"
     },
     {
       title: "SunnydropPlanner",
       category: "eCommerce",
       description: "Shopify setup with custom product photography and SEO optimization.",
       image: "../../Images/sunny.png",
-      results: ["First-month sales exceeded targets by 30%", "Established brand identity", "Seamless checkout experience"]
+      results: ["First-month sales exceeded targets by 30%", "Established brand identity", "Seamless checkout experience"],
+      link: "https://www.etsy.com/shop/SunnydropPlanner?ref=shop-header-name&listing_id=1412631620&from_page=listing"
     },
     {
       title: "SwedishGenius",
       category: "eCommerce",
       description: "Swedishgenius - Etsy Nigeria Shop Dominating by Swedishgenius located in Stockholm, Sweden.",
       image: "../../Images/swedishgenius.png",
-      results: ["First-month sales exceeded targets by 30%", "Established brand identity", "Seamless checkout experience"]
+      results: ["First-month sales exceeded targets by 30%", "Established brand identity", "Seamless checkout experience"],
+      link: "https://www.etsy.com/shop/SwedishGenius"
     },
     {
       title: "Executive Assistant",
       category: "Virtual Assistance",
       description: "Ongoing support for a busy CEO including email management and scheduling.",
       image: "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=600&auto=format&fit=crop&q=80",
-      results: ["Reduced admin workload by 70%", "Improved response times", "Optimized calendar management"]
+      results: ["Reduced admin workload by 70%", "Improved response times", "Optimized calendar management"],
+      
+      // link: "https://www.instagram.com/reel/DHnJ7bVtqXF/?igsh=MW4zbXY4ZHpzOWJ5NA%3D%3D"
     },
     {
       title: "Fashion Influencer Growth",
       category: "Social Media",
       description: "Content strategy and community engagement for a fashion influencer.",
       image: "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?w=600&auto=format&fit=crop&q=80",
-      results: ["Doubled Instagram following", "Secured 3 brand partnerships", "Increased engagement by 45%"]
+      results: ["Doubled Instagram following", "Secured 3 brand partnerships", "Increased engagement by 45%"],
+      link: "https://www.instagram.com/reel/DHnJ7bVtqXF/?igsh=MW4zbXY4ZHpzOWJ5NA%3D%3D"
     },
     {
       title: "Online Course Launch",
@@ -151,7 +159,7 @@ const Projects = () => {
       <section className="navy text-white py-20">
         <div className="container px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl sf font-bold mb-6">My Projects</h1>
+            <h1 className="text-4xl md:text-5xl sf font-bold mb-6 sf">My Projects</h1>
             <p className="text-xl text-gray-300">
               Case studies showcasing my work in eCommerce, social media, and virtual assistance
             </p>
