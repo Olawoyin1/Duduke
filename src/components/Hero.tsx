@@ -16,7 +16,7 @@ const Hero = () => {
           {/* Left Content */}
           <div className="space-y-6 animate-fade-in">
             <h1 className="text-4xl sf md:text-5xl font-bold leading-tight">
-              <span className="text-teal">I'm Azeez Aisha</span><br />
+              <span className="text-teal">I'm Azeez Aduke</span><br />
               
               {/* Mobile view (< md) */}
               <span className="block md:hidden">
