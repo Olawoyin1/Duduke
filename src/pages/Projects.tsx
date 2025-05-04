@@ -151,14 +151,14 @@ const Projects = () => {
       },
     
     
-    {
-      title: "Fashion Influencer Growth",
-      category: "Social Media",
-      description: "Content strategy and community engagement for a fashion influencer.",
-      image: "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?w=600&auto=format&fit=crop&q=80",
-      results: ["Doubled Instagram following", "Secured 3 brand partnerships", "Increased engagement by 45%"],
-      link: "https://www.instagram.com/reel/DHnJ7bVtqXF/?igsh=MW4zbXY4ZHpzOWJ5NA%3D%3D"
-    },
+    // {
+    //   title: "Fashion Influencer Growth",
+    //   category: "Social Media",
+    //   description: "Content strategy and community engagement for a fashion influencer.",
+    //   image: "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?w=600&auto=format&fit=crop&q=80",
+    //   results: ["Doubled Instagram following", "Secured 3 brand partnerships", "Increased engagement by 45%"],
+    //   link: "https://www.instagram.com/reel/DHnJ7bVtqXF/?igsh=MW4zbXY4ZHpzOWJ5NA%3D%3D"
+    // },
   ];
 
   const filteredProjects = activeFilter === "all" 
