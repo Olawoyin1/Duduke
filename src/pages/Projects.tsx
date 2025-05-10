@@ -127,6 +127,114 @@ const Projects = () => {
           "Enhanced client-executive communication"
         ]
       },
+
+  {
+    title: "Skills Map and Peer Coaching Reflection",
+    link: "https://docs.google.com/document/d/10tTSZEGxicmVKKfXjXYXqGoCCAik5H3LaByZcK639F4/edit?usp=sharing",
+    description: "Reflection on personal strengths, weaknesses, and peer coaching experience.",
+    category: "Virtual Assistance",
+    results: ["Personal project", "Improved self-awareness and communication"],
+    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    title: "VA Tech Tools - Calendar",
+    link: "https://intranet.alxswe.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNXRsR3c9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--aade887ada01f56be317475fb7b6cf247ac8ce48/Screen.PNG",
+    description: "Screenshot showing effective use of digital calendar for scheduling.",
+    category: "Virtual Assistance",
+    results: ["Personal project", "Enhanced time management skills"],
+    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    title: "VA Tech Tools - Inbox",
+    link: "https://intranet.alxswe.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNWxsR3c9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--48d2c51f5a9619fa2af9e36f361e764f81647824/Cap.PNG",
+    description: "Demonstration of professional inbox organization and email management.",
+    category: "Virtual Assistance",
+    results: ["Personal project", "Developed digital organization skills"],
+    image: "https://plus.unsplash.com/premium_photo-1682309526815-efe5d6225117?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW5ib3h8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    title: "Milestone: Travel Pack",
+    link: "https://docs.google.com/presentation/d/1GA8ZV4CRG9QgRHKfZT8Cib5DBvdYVR9IXNa5qi-3uBg/edit?usp=sharing",
+    description: "Presentation of a travel itinerary with organized logistics and planning.",
+    category: "Virtual Assistance",
+    results: ["Personal project", "Strengthened planning and presentation abilities"],
+    image: "https://images.unsplash.com/photo-1643046322163-cc1eadb6bd6b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dHJhdmVsJTIwcGFja3xlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    title: "Milestone: Project Plan",
+    link: "https://docs.google.com/spreadsheets/d/1fdq2LLa_tSABG8H06cn5USXvsL2_QzzvzDdcEy-BvJA/edit?usp=sharing",
+    description: "Detailed spreadsheet outlining task breakdown and timelines for a project.",
+    category: "Virtual Assistance",
+    results: ["Personal project", "Gained experience in project management"],
+    image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdCUyMHBsYW58ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    title: "Milestone: Internet Research",
+    link: "https://docs.google.com/spreadsheets/d/1XcoqNtGfu1zLz9UPSP3R4Io-LnNS8sW9R4QhZ0Xb_0Y/edit?usp=sharing",
+    description: "Compiled internet research with sources and analysis on a chosen topic.",
+    category: "Virtual Assistance",
+    results: ["Personal project", "Enhanced online research and data interpretation"],
+    image: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    title: "Milestone: Meeting Management",
+    link: "https://docs.google.com/document/d/1EUcMclVdjKj153ijX4LkaY0_cyeBB-3KCSK3xyZkwu4/edit?usp=sharing",
+    description: "Documented meeting agenda, minutes, and follow-up tasks.",
+    category: "Virtual Assistance",
+    results: ["Personal project", "Improved meeting coordination and documentation"],
+    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    title: "Updated Skills Tracker",
+    link: "https://docs.google.com/spreadsheets/d/11cR0rkCBx3zAsJk_9_ByKpb5JzHm2Ubg44Z6f_Ytgow/edit?usp=sharing",
+    description: "Spreadsheet tracking progress in various professional skill areas.",
+    category: "Virtual Assistance",
+    results: ["Personal project", "Promoted self-evaluation and goal setting"],
+    image: "https://images.unsplash.com/photo-1629721671030-a83edbb11211?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2tpbGx8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    title: "Resume",
+    link: "https://docs.google.com/document/d/1xrCf6gNp_o2Y7PiebNqY0eRfg5qIKX8n9rcCxRufmbY/edit?usp=sharing",
+    description: "Professional resume showcasing relevant skills and experience.",
+    category: "Virtual Assistance",
+    results: ["Personal project", "Demonstrated ability to present qualifications effectively"],
+    image: "https://plus.unsplash.com/premium_photo-1661288470388-c5006797bdff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdW1lfGVufDB8fDB8fHww"
+  },
+  {
+    title: "Cover Letter",
+    link: "https://docs.google.com/document/d/1bJgLNxuxOz1LRpmuk8mL1mZCFer3T9jvPB7t240j1l0/edit?usp=sharing",
+    description: "Custom cover letter tailored for virtual assistant roles.",
+    category: "Virtual Assistance",
+    results: ["Personal project", "Showcased professional writing and personalization skills"],
+    image: "https://images.unsplash.com/photo-1599498448014-81d90414c50a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGNvdmVyJTIwbGV0dGVyfGVufDB8fDB8fHww"
+  },
+  {
+    title: "LinkedIn Profile",
+    link: "https://www.linkedin.com/in/azeezaduke?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    description: "Public LinkedIn profile highlighting virtual assistant credentials.",
+    category: "Virtual Assistance",
+    results: ["Personal project", "Built professional online presence"],
+    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=60"
+  },
+  {
+    title: "Online Bid",
+    link: "https://docs.google.com/document/d/1uZ0xeBkFBve9Br7GotV_Ae2Vndrn5YMlh2Vin9loW5E/edit?usp=sharing",
+    description: "Example bid for an online freelancing opportunity.",
+    category: "Virtual Assistance",
+    results: ["Personal project", "Practiced freelance bidding and proposal writing"],
+    image: "https://images.unsplash.com/photo-1626901491152-3960a771a802?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGJpZHxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    title: "Personal Pitch",
+    link: "https://docs.google.com/document/d/1SLiF6j3cSapWQHPgylPQYIOsJ4V-s8GB5czDw4bTZ9Q/edit?usp=sharing",
+    description: "Concise personal pitch highlighting strengths as a virtual assistant.",
+    category: "Virtual Assistance",
+    results: ["Personal project", "Refined personal branding and pitching"],
+    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=60"
+  },
+
+
+      
       {
         "title": "Travel Coordination & Research Support",
         "category": "Virtual Assistance",
